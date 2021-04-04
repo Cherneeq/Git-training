@@ -4,5 +4,7 @@ x2 = int(input())
 y2 = int(input())
 if x1 - y1 == x2 - y2 or x1 + y1 == x2 + y2:
     print('YES')
+elif y1 == y2 or x1 == x2:
+    print('YES')
 else:
     print('NO')
