@@ -1,26 +1,8 @@
-num = int(input())
-if num == 1:
-    print('I')
-elif num == 2:
-    print('II')
-elif num == 3:
-    print('III')
-elif num == 4:
-    print('IV')
-elif num == 5:
-    print('V')
-elif num == 6:
-    print('VI')
-elif num == 7:
-    print('VII')
-elif num == 8:
-    print('VIII')
-elif num == 9:
-    print('IX')
-elif num == 10:
-    print('X')
-elif num < 1 or num > 10:
-    print('ошибка')
-
-
-
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if x1 - y1 == x2 - y2 or x1 + y1 == x2 + y2:
+    print('YES')
+else:
+    print('NO')
