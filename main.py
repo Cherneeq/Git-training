@@ -1,10 +1,5 @@
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
-if x1 - y1 == x2 - y2 or x1 + y1 == x2 + y2:
-    print('YES')
-elif y1 == y2 or x1 == x2:
-    print('YES')
-else:
-    print('NO')
+a, b, c = int(input()), int(input()), int(input())
+maxi = max(a, b, c)
+mini = min(a, b, c)
+aver = a + b + c - min(a, b, c) - max(a, b, c)
+print(max(a, b, c), aver, min(a, b, c), sep='\n')
