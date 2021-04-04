@@ -1,25 +1,26 @@
 num = int(input())
-if 1 <= num <= 10:
-    if num % 2 != 0:
-        print('красный')
-    else:
-        print('черный')
-if 11 <= num <= 18:
-    if num % 2 != 0:
-        print('черный')
-    else:
-        print('красный')
-if 19 <= num <= 28:
-    if num % 2 != 0:
-        print('красный')
-    else:
-        print('черный')
-if 29 <= num <= 36:
-    if num % 2 != 0:
-        print('черный')
-    else:
-        print('красный')
-if num == 0:
-    print('зеленый')
-if num < 0 or num > 36:
-    print('ошибка ввода')
+if num == 1:
+    print('I')
+elif num == 2:
+    print('II')
+elif num == 3:
+    print('III')
+elif num == 4:
+    print('IV')
+elif num == 5:
+    print('V')
+elif num == 6:
+    print('VI')
+elif num == 7:
+    print('VII')
+elif num == 8:
+    print('VIII')
+elif num == 9:
+    print('IX')
+elif num == 10:
+    print('X')
+elif num < 1 or num > 10:
+    print('ошибка')
+
+
+
