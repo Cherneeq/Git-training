@@ -1,5 +1,7 @@
-a, b, c = int(input()), int(input()), int(input())
-maxi = max(a, b, c)
-mini = min(a, b, c)
-aver = a + b + c - min(a, b, c) - max(a, b, c)
-print(max(a, b, c), aver, min(a, b, c), sep='\n')
+a = len(input())
+b = len(input())
+c = len(input())
+if (2 * b - c -a) * (2 * c - b - a) * (2 * a - b - c) == 0:
+    print('YES')
+else:
+    print('NO')
