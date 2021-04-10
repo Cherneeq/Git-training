@@ -1,6 +1,3 @@
-
-y1, x1, y2, x2 = int(input()), int(input()), int(input()), int(input())
-if y1 == y2 or x1 == x2:
-    print('YES')
-else:
-    print('NO')
+n = int(input())
+for i in range(1, 11):
+    print(n, 'x', i, '=', (n * i))
