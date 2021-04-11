@@ -1,7 +1,7 @@
-a = len(input())
-b = len(input())
-c = len(input())
-if (2 * b - c -a) * (2 * c - b - a) * (2 * a - b - c) == 0:
-    print('YES')
-else:
-    print('NO')
+from math import factorial
+total = 0
+n = int(input())
+for i in range(1, n + 1):
+    if n % i == 0:
+        total += i
+print(total)
