@@ -1,7 +1,12 @@
-from math import factorial
-total = 0
 n = int(input())
-for i in range(1, n + 1):
-    if n % i == 0:
-        total += i
-print(total)
+big = -n
+prebig2 = -n
+for i in range(n):
+    a = int(input())
+    if a > big:
+        prebig2 = big
+        big = a
+    else:
+        if a < big and a > prebig2:
+            prebig2 = a
+print(big, prebig2, sep='\n')
