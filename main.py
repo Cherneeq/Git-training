@@ -1,3 +1,11 @@
-n = int(input())
-for i in range(1, 11):
-    print(n, 'x', i, '=', (n * i))
+
+
+
+
+# num = int(input())
+# m = 0
+# while num > 0:
+#     if(num % 10 > m):
+#         m = num % 10
+#     num //= 10
+# print(m)
